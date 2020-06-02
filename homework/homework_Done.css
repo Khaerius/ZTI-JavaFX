@@ -1,0 +1,10 @@
+.root {
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+.box {
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
