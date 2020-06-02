@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language javascript?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<VBox spacing="20" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml">
+    	    <Label fx:id="label1" text="Line 1"/>
+        
+        	<Button fx:id="button1" text="Kliknij!" onAction="reactToClick()">
+        		<style>
+            		-fx-padding: 15;
+            		-fx-border-width: 4;
+            		-fx-background-color: #18db4c;
+        		</style>
+        	</Button>
+
+    		<fx:script>
+        		function reactToClick() {
+        	    	label1.setText("Kliknięto przycisk");
+        		}
+    		</fx:script> 
+    		
+    		<Label fx:id = "label2" text="Line 2"/>
+	
+			<Button fx:id = "button2" text="Kliknij - kontroler!" onAction="#buttonClicked">
+    		</Button>  
+</VBox>
