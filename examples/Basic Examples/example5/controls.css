@@ -1,0 +1,13 @@
+.root {
+
+}
+
+.box {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+    -fx-padding: 5;
+}
+
+#radioBox {
+    -fx-alignment: center-left;
+}

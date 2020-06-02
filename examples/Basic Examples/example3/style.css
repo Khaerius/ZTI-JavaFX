@@ -1,0 +1,28 @@
+.root {
+    -fx-background-image: url("bg.png");
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+#responseText {
+    -fx-font-size: 22;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-fill: blue;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14;
+    -fx-background-color: linear-gradient(#777777, #555555);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#888888, #666666);
+}
+
+.button:pressed {
+    -fx-effect: none;
+}
